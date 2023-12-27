@@ -38,8 +38,7 @@ while True1:
                 cscore=cscore + 1
             if pscore==cscore:
                 print("Match Draw")
-                print("player score",pscore)
-                print("computer score",cscore)
+                print("tie score",tiescore)
             elif pscore<cscore:
                 print("Computer win the match")
                 print("player score", pscore)
